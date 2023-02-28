@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, .container , .ip-fields{               
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #0c2a49;
+    /* #101820FF */
+}
+
+.container{
+    width: 500px;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: white;
+    padding:30px 30px 38px;
+}
+.container h1{
+    font-size: 2.5rem;
+    margin: 20px 0px;
+}
+
+.container .ip-fields{
+    width: 100%;
+    justify-content: space-between;
+}   
+.ip-fields .elements{
+    margin: 0px 5px;
+    border-radius:5px;
+    background-color: white;
+    padding: 0px 10px;
+    border:1px solid #999;
+    width:calc(100% / 3 - 5px);
+}
+.elements select{
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 100%;
+    font-size: 1rem;
+    cursor:pointer;
+}
+.container button{
+   width:100%;
+   margin-top: 20px;
+   font-size: 1rem;
+   font-weight: bold;
+   padding: 10px 0px;
+   border:none;
+   cursor:pointer;
+}
+.delete {
+    height: 30px;
+    padding: 5px 0px;
+    border-radius: 3px;
+    cursor:pointer;
+  }
+ul {
+    list-style-type: none;
+    color:white;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    /* border: 1px solid #e5e5e5; */
+}
+ul li {
+    margin-top:10px;
+    background-color: grey;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 10px;
+}
